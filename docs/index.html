@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Foxtail: Positional Tracking & Streaming</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <style>
+    .alternate-word {
+      display: inline-block;
+      border-right: 3px solid #ff8c42;
+      animation: blink-caret 0.75s step-end infinite;
+    }
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: #ff8c42; }
+    }
+  </style>
+</head>
+
+<body style="background-image: url(images/paisley.webp);color: #000;font-size:18px;background-color:black">
+
+
+  <div id="index-banner" class="parallax-container" style="width: 100vw;">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="icon" style="height:30vh;width:30vh"></div>
+        <h1 class="header center teal-text text-lighten-2 typewriter"
+          style="color: #ff8c42!important;">Foxtail: Position. <span class="alternate-word" id="alternateWord">Tracked.</span>
+        </h1>
+        <div class="row center">
+          <h5 class="header col s12 light hidesmall" style="font-size: 3vw!important;"><span class="feature">
+Phone-based live spatial tracking</span>
+          </h5>
+        </div>
+        <div class="row center">
+          <a target='_blank' href="https://apps.apple.com/us/app/delphi-objects-detected/id6742596324"
+            id="download-button" class="btn-large waves-effect waves-light teal 
+          lighten-1"
+            style="margin-top:20px;background-color: #ff8c42  !important;border-radius: 30px; box-shadow: 0px 0px 10px rgb(73, 40, 40);">
+            <i class="material-icons left" style="font-size:200%;margin-right: 5px;">apple</i>
+            Get iOS App</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="images/slide1.png" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">sync</i></h2>
+            <h5 class="center">Full Toolchain</h5>
+
+            <p class="light">Delphi offers a complete toolchain-in-a-app that covers every stage of the object detection
+              process, from creating precise bounding-box annotations, importing existing datasets, to generating custom
+              datasets and training, testing and exporting models. This end-to-end solution simplifies deployment across
+              various platforms, including web applications, edge devices, and mobile systems.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">lock_outline</i></h2>
+            <h5 class="center">Data Security</h5>
+
+            <p class="light">While Delphi allows for easy import of existing annotated datasets, it ensures that all
+              data processing is
+              done locally on your device, giving users full control over their data. This means that images,
+              annotations,
+              datasets, and even generated models are processed and stored only on your device, eliminating the risk of
+              data
+              breaches or unauthorized access. This feature is particularly valuable for projects involving personal or
+              protected data.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on
+              </i></h2>
+            <h5 class="center">Get more out of your M-Mac</h5>
+
+            <p class="light">Delphi, is specifically designed to leverage the power of M-series chips for training machine learning models, particularly for object detection tasks. This optimization ensures that users can train complex models faster, reduce latency, and deliver real-time AI solutions. Delphi provides a powerful toolset for unlocking the full potential of Apple Silicon in machine vision applications.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">
+            <span class="feature">Real-time web-socket Streaming</span>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/slide2.gif" alt="Unsplashed background img 2" style="height: 100%; width: 100%; object-fit: cover;"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Real-time 6DOF position streaming
+</h4>
+          <p class="left-align light">
+            — Ultra-low latency WebSocket connection
+— Simple session joining via QR code or code entry
+— Works with iOS ARKit and Android ARCore
+— No account required
+          </p>
+          <p class="left-align light">
+            Built for
+— Immersive domes and planetariums
+— LED wall and large-format screen venues
+— Live concerts and festival experiences
+— Immersive theater and interactive installations
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">
+            <span class="feature">Import, create, store and export datasets locally</span>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax blursection"><img src="images/slide3.png" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row" id="privacy">
+        <div class="col s12 center">
+          <div class="icon"></div>
+          <h4>Privacy Policy</h4>
+          <p>Your privacy is important to us. This privacy policy explains that our app does not collect any personal
+            data from users.</p>
+          <h5>Information We Collect</h5>
+          <p>We do not collect any personal information from users of our app.</p>
+          <h5>How We Use Information</h5>
+          <p>Since we do not collect any personal information, we do not use any personal data in any way.</p>
+          <h5>File Storage</h5>
+          <p>Our app may store data locally on your device, such as images, annotations, datasets, and models. This data
+            is stored locally on your device and is not transmitted to any external servers or third parties. You can find all local data stored can be found in <pre style="display:inline;font-family: 'Courier New', Courier, monospace;">~/Downloads/obj-det</pre>
+          </p>
+          <h5>Contact Us</h5>
+          <p>If you have any questions about this Privacy Policy, please contact us at <a
+              href="mailto:contact@foxyninjastudios.com">contact@foxyninjastudios.com</a>.</p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">
+            <span class="feature">Make and export <a
+                href='https://ai.google.dev/edge/litert/models/convert_to_flatbuffer' target="_blank">tflite</a> models
+              for deployment</span>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax blursection"><img src="images/slide4.png" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal" style="font-family:'Consolas', monospace; background-image: url(images/bg.png);">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Foxy Ninja Studios LLC</h5>
+          <p class="grey-text text-lighten-4" style="font-size:90%">Made in the Phonix Metro Area</p>
+
+
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <small class="container" style="text-align:center">
+        &copy; 2025, All Rights Reserved
+      </small>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+    const words = ['Tracked.', 'Streamed.'];
+    let wordIndex = 0;
+    const el = document.getElementById('alternateWord');
+    const typeSpeed = 100;
+    const deleteSpeed = 50;
+    const pauseTime = 1500;
+
+    function typeWord(word, charIndex = 0) {
+      if (charIndex <= word.length) {
+        el.textContent = word.substring(0, charIndex);
+        setTimeout(() => typeWord(word, charIndex + 1), typeSpeed);
+      } else {
+        setTimeout(() => deleteWord(word), pauseTime);
+      }
+    }
+
+    function deleteWord(word, charIndex = word.length) {
+      if (charIndex >= 0) {
+        el.textContent = word.substring(0, charIndex);
+        setTimeout(() => deleteWord(word, charIndex - 1), deleteSpeed);
+      } else {
+        wordIndex = (wordIndex + 1) % words.length;
+        setTimeout(() => typeWord(words[wordIndex]), 300);
+      }
+    }
+
+    typeWord(words[0]);
+  </script>
+
+</body>
+
+</html>
